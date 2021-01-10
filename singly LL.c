@@ -51,8 +51,7 @@ default:printf("Enter valid choice..!");
 }
 void append()
 {
-struct node* currentnode=(struct node*)malloc(sizeof(struct node)); //creating and allocating
-memory for temporary node
+struct node* currentnode=(struct node*)malloc(sizeof(struct node)); //creating and allocating memory for temporary node
 printf("Enter the Node Data :"); 
 scanf("%d",&data);
 currentnode->data=data;
