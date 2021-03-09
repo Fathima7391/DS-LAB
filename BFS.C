@@ -7,7 +7,6 @@ void findpos(int);
 void main()
  {
  int i,j,choice;
- clrscr();
  printf("\n\t Enter the total no:of nodes : ");
  scanf("%d",&n);
  printf("\n\t Enter %d nodes : ",n);
